@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.details {
+  background: #999;
+  height: 85vh;
+  width: calc(100% - 40px);
+  overflow: auto;
+  padding: 0 20px 0 20px;
+}
+
+@media (max-width: 64em){
+    .details {
+      height: 40vh;
+    }
+}
